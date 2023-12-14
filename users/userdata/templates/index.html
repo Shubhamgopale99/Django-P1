@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>User data</title>
+</head>
+<body>
+<h1>Welcome in Shubham User Interface</h1>
+<p>In this project we add data in admin(django) and show to user </p>
+<table>{% for U in users %}
+<tr>
+    <td>firstname = {{U.firstname}}</td>
+    <td>lastname = {{U.lastname}}</td>
+</tr>
+</table>
+{%endfor%}
+</body>
+</html>
